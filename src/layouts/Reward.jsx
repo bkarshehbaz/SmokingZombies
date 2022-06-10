@@ -104,7 +104,7 @@ const Reward = () => {
           <br />
 
           <div style={postsStyle}>
-            {shopsVisited && shopsVisited.length > 1 ? (
+            {shopsVisited && shopsVisited.length === 5 ? (
               <div className="center">
                 <div className="flex">
                   <p>Congratulations </p>
